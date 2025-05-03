@@ -44,3 +44,19 @@ ecommerce-funnel-analysis/
 ├── ecommerce_funnel_analysis.ipynb # PySpark pipeline + Plotly visualizations
 ├── requirements.txt # Python dependencies
 └── README.md # Project overview and instructions
+
+
+---
+
+## Prerequisites
+
+- **Python 3.7+**  
+- **Java 8+** (for PySpark)  
+- **PySpark**  
+- **Plotly**  
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+
