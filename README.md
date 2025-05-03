@@ -1,20 +1,9 @@
 # E-commerce Funnel Drop-Off Analysis
+![funnel_dropoff](https://github.com/user-attachments/assets/143d7ab0-6af1-4c37-ac08-f9091409883f)
 
 This repository contains a complete end-to-end PySpark pipeline and Plotly visualizations for analyzing user behavior through an e-commerce funnel (`view → cart → purchase`). 
 Dataset : https://www.kaggle.com/code/malyshevartem/e-commerce-funnel-analysis/input
 The dataset is provided as a single ZIP archive containing five nested ZIP files (one per month), each of which holds a single CSV of raw clickstream events from October 2019 through February 2020.
-
----
-
-## Why Nested ZIP Extraction?
-
-Our raw data arrived in a single `ecommercefunnel.zip` file, which itself contains five monthly ZIP archives (`2019-Oct.zip`, …, `2020-Feb.zip`). This structure helps:
-
-1. **Organize monthly data** without name collisions  
-2. **Enable efficient downloads** and versioning  
-3. **Allow incremental updates** by month  
-
-The first step in our pipeline is to programmatically unzip all nested archives into a flat folder (`unzipped_csvs/`) so PySpark can read every CSV at once.
 
 ---
 
