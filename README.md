@@ -40,9 +40,13 @@ The first step in our pipeline is to programmatically unzip all nested archives 
 
 ecommerce-funnel-analysis/
 ├── ecommercefunnel.zip # Main ZIP containing nested monthly ZIPs
+
 ├── unzipped_csvs/ # (Generated) CSVs extracted from nested ZIPs
+
 ├── ecommerce_funnel_analysis.ipynb # PySpark pipeline + Plotly visualizations
+
 ├── requirements.txt # Python dependencies
+
 └── README.md # Project overview and instructions
 
 
