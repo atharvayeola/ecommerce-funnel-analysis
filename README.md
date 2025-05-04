@@ -38,32 +38,32 @@ These are programmatically extracted into a flat folder: `unzipped_csvs/`
 ## 📊 Visuals
 
 ## Distribution of Session Conversion Times
-![Distribution of Session Conversion Times](dist_session_conv.png)
+![Distribution of Session Conversion Times](/plots/dist_session_conv.png)
 
 ---
 
 ## Funnel Drop-off Analysis
-![Funnel Drop-off Analysis](funnel_dropoff.png)
+![Funnel Drop-off Analysis](/plots/funnel_dropoff.png)
 
 ---
 
 ## Monthly Cart Abandonments
-![Monthly Cart Abandonments](monthly_cart_abandonments.png)
+![Monthly Cart Abandonments](/plots/monthly_cart_abandonments.png)
 
 ---
 
 ## Monthly Funnel Progression
-![Monthly Funnel Progression](monthly_funnel_prog.png)
+![Monthly Funnel Progression](plots/monthly_funnel_prog.png)
 
 ---
 
 ## Top Brands by Conversion Rate
-![Top Brands by Conversion Rate](top_brands_by_conv_rate.png)
+![Top Brands by Conversion Rate](plots/top_brands_by_conv_rate.png)
 
 ---
 
 ## Top Categories by Conversion Rate
-![Top Categories by Conversion Rate](top_cat_by_conv_rate.png)
+![Top Categories by Conversion Rate](plots/top_cat_by_conv_rate.png)
 
 ## 📂 Repository Structure
 
